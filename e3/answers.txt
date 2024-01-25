@@ -1,0 +1,6 @@
+1. I think LOESS has a better result. Kalman's result is still not very smooth, and I'm not sure if it's me who's doing something wrong, but whenever I can get the curves to be smoother,
+the line is way below the actual data points. If I want the line to match with the data points, the line will become less smooth.
+
+2. Accelerameter could have been used to better predict the points because it tells you there is an increase in speed, which means the next latitude and longitude will be further away from the
+previous points compared to the distance between the previous points and the previous previous points if there is positive acceleration. Vice versa if acceleration is negative. Gyroscope can
+be used ot better predict the points because it gives you a better estimate of the direction of where you are walking next.

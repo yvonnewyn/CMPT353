@@ -1,0 +1,6 @@
+1. After reading/getting the comments dataframe, and after grouping the comments dataframe to get the averages dataframe
+ (that contains the average scores of each subreddit). If cache wasn't used,
+comments would have to be read several times instead of just once, and the groupBy 
+would also have to be performed more than once to get averages, thus slowing the process down.
+
+2. It made the program run faster. Without broadcast it took 51 seconds, while with broadcast it only took 38 seconds.

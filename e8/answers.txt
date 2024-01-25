@@ -1,0 +1,9 @@
+1. kNN and random forest both did very well, scoring consistently around 7.2-7.5, while Naive Bayesian did noticeably worse than the others. There's also no noticeable difference between RGB/LAB,
+except for Bayesian where LAB scores a little bit better than RGB. One possible reason for Bayesian performing worse than the others may be due to Baysian assuming independence and normally
+distributed. The assumption of independence is definitely violated, as the colors' values all depend on each other; moreover, the distribution does not seem very normal either. A possible theory
+for LAB scoring a little better than RGB for Bayesian may be due to the fact that the lightness component is independent from the two color components, although it still does bad since the two 
+color components are not independent, nor is the distribution normal.
+
+2. I think the model is making reasonable mistakes. The mistakes aren't too random, it's pretty consistent. For example, Raleigh Durham is consistently wrongly predicted as Atlanta, while 
+Atlanta is pretty consistently wrongly predicted as Raleigh Durham, same with London and Toronto. So it can be assumed that the features (temperature, precipitation, snowfall) are pretty 
+similar between those cities. Other weather features that can potentially be added to make better predictions could be sunny-ness/cloudiness and wind.

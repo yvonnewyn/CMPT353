@@ -1,0 +1,7 @@
+1. Yes, the histograms of the residuals seems close-enough to being normal. It has a peak in the middle while the two sides are lower, forming a normal-ish distribution. We can also reasonably 
+conclue that the ratings are increasing, as the OLS p-value is very close to 0, aka definitely smaller than alpha (0.05), thus we can reasonably reject the null hypothesis that the slope 
+is 0. And looking at the plot it is clear that the slope is positive instead of negative, thus the ratings are increasing.
+
+2. Since the predictions are the result of ML trained from real data, I think that it should be better. Although this graph has a lot more noise ompared to the previous graph from exercise 3, 
+that is mostly due to the raw data having more data points. 
+

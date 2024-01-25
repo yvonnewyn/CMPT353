@@ -1,0 +1,11 @@
+1. Yes and no. The graph has a little bit of a normal distribution, the coldest (<12C)and hottest (>30C)
+daily temperatures have a lower population density range (not exceeding 2500 people/km^2), while the 
+mild daily temperatures (12C-30C) have a larger population density range (up to 7000 people/km^2). However,
+while there are cities with mild daily temperatures that have high population density, there's also ones that
+have lower population density. So we can predict it in the way that the cities with more extreme daily 
+temperatures will likely not have a high population density; however, we cannot predict the population 
+density of cities with mild daily temperatures.
+
+2. It might be faster because the compressed file is many times smaller than the uncompressed, so when the 
+CPU is loading it into memory when running the program, it will be faster since it is much smaller. However, 
+if the uncompressed file is still relatively small, then leaving it uncompressed will be faster.

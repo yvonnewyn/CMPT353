@@ -1,0 +1,20 @@
+1. 
+(1) reddit-0: 32.1 seconds
+(2) reddit-2, no schema, no cache: 53.8 seconds
+(3) reddit-2, schema, no cache: 39.3 seconds
+(4) reddit-2, schema, cache: 47.5 seconds 
+
+Since cache is acting up for reddit-2, I did cache vs no-cache on reddit-3 as well; here are the results:
+No cache: 2:20.4 minutes
+Cache: 1:25.7 minutes
+
+2. Based on the above, it looks like the majority of the time taken is used to read the files. 
+This is shown by the run with a specified schema taking 14 seconds less than the run with no schema 
+specified. Since no schema means Spark has to read the dataset twice, while a specified schema means 
+Spark only has to read the dataset once, it means one read takes around 14 seconds. 
+The run with reddit-0 shows that Spark startup takes around 30 seconds. The run wtih reddit-2, schema, 
+and no cache took around 39 seconds. That means it took 9 seconds to read the file and calculate the averages, 
+and since one read takes around 14 seconds, that means calculating the averages takes nearly no time at all.
+
+3. .cache() is used after filtering out the non english articles, main pages, and titles starting 
+with 'Special:'

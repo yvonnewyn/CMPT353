@@ -1,0 +1,28 @@
+1. I don't think we are p-hacking. We redesigned the experiment to focus on instructors because we felt that the original hypothesis was flawed, and not because we're not satisfied with the results
+of the previous tests. The p-value for "Did more/less instructors use the search feature" is 0.052 while the p-value for "Did instructors search more/less" is 0.045. So I am comfortable
+concluding that the number of times instructors searched differs between the two designs, but I cannot conclude that the number of instructors who used the search feature differs between 
+the two designs.
+
+2. There are 21 pairs between the 7 sorting algorithms, so we would've ran 21 tests (which is a lot of tests). 
+The probability of no incorrect rejection of the null would be 0.95^21 = 0.34. So the probability of having a false conclusion becomes 66% which is huge.
+
+3. 
+Ranking from fastest to slowest:
+1. Partition sort
+2. Quick sort 1
+3. Quick sort 4
+4. Quick sort 2, quick sort 3, quick sort 5, merge sort
+Explanation: All other algorithms paired with partition sort and quick sort 1 can be concluded to have different means. And by a quick look at the means of each or the confidence intervals
+plotted in "fig.png" it is clear that partition sort is the fastest, with quick sort 1 being the second fastest. The rest of the algorithm pairs cannot be concluded to have different means
+except for quick sort 2 and quick sort 4, and so quick sort 4 becomes third fastest, with the rest tied for 4th place. 
+
+The pairs that can not be concluded to have different running times is:
+merge sort - quick sort 2
+merge sort - quick sort 3
+merge sort - quick sort 4
+merge sort - quick sort 5
+quick sort 2 - quick sort 3
+quick sort 2 - quick sort 5
+quick sort 3 - quick sort 4
+quick sort 3 - quick sort 5
+quick sort 4 - quick sort 5

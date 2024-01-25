@@ -1,0 +1,76 @@
+Data-1:
+
+x mean: 8.717696
+y mean: 12.522874
+x standard deviation: 12.155517
+y standard deviation: 6.639964
+x range: -22.635878, 35.237055
+y range: -2.565088, 27.384153
+r: 0.9503256954375483
+Description: The dataset's center is 8.72 for x and 12.52 for y; for x, the points are on average 12.16 away from the center for x, while the points are on average 6.64 away from the center for y;
+the dataset goes from -22.64 to 35.24 for x and -2.57 to 27.38 for y; x and y have a lot of linear relationship: as x gets bigger, y also gets bigger.
+
+
+Data-2:
+
+x mean: -0.710787
+y mean: -0.748987
+x standard deviation: 11.481584
+y standard deviation: 6.257918
+x range: -33.271113, 27.647000
+y range: -18.621804, 14.147315
+r: 0.9551531665750373
+Description: The dataset's center is -0.71 for x and -0.75 for y; for x, the points are on average 11.48 away from the center for x, while the points are on average 6.26 away from the center for y;
+the dataset goes from -33.27 to 27.65 for x and -18.62 to 14.15 for y; x anc y have a lot of linear relationship: as x gets bigger, y also gets bigger.
+
+
+Data-3:
+
+x mean: 0.968907
+y mean: 8.508535
+x standard deviation: 2.235558
+y standard deviation: 1.149301
+x range: -2.449064, 4.518885
+y range: 6.641734, 10.551871
+r: 0.9819372646760661
+Description: The dataset's center is 0.97 for x and 8.51 for y; for x, the points are on average 2.24 away from the center for x, while the points are on average 1.15 away from the center for y;
+the dataset goes from -2.45 to 4.52 for x and 6.64 to 10.55 for y; x anc y have a lot of linear relationship: as x gets bigger, y also gets bigger.
+
+
+Data-4:
+
+x mean: 49.905086
+y mean: 18.553837
+x standard deviation: 28.508611
+y standard deviation: 16.545896
+x range: 0, 87.376700
+y range: 0, 44.565040
+r: -0.08119306735490815
+Description: The dataset's center is 49.91 for x and 18.55 for y; for x, the points are on average 28.51 away from the center for x, while the points are on average 16.55 away from the center for y;
+the dataset goes from 0 to 87.28 for x and 0 to 44.57 for y; there is no apparent linear relationship between x and y.
+
+
+Data-5:
+
+x mean: 49.909994
+y mean: 18.555525
+x standard deviation: 28.500001
+y standard deviation: 16.540796
+x range: 4.337892, 91.052863
+y range: 0.055498, 49.934197
+r: -0.08823598983058886
+Description: The dataset's center is 49.91 for x and 18.56 for y; for x, the points are on average 28.50 away from the center for x, while the points are on average 16.54 away from the center for y;
+the dataset goes from 4.34 to 91.05 for x and 0.06 to 49.93 for y; there is no apparent linear relationship between x and y.
+
+
+Data-6:
+
+x mean: 7.216155
+y mean: 7.602215
+x standard deviation: 11.921599
+y standard deviation: 11.764382
+x range: -24.333821, 35.402139
+y range: -22.956357, 36.079874
+r: 0.9350685662094905
+Description: The dataset's center is 7.22 for x and 7.6 for y; for x, the points are on average 11.92 away from the center for x, while the points are on average 11.76 away from the center for y;
+the dataset goes from -24.33 to 35.40 for x and -22.96 to 36.08 for y; x anc y have a lot of linear relationship: as x gets bigger, y also gets bigger.

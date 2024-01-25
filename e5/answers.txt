@@ -1,0 +1,13 @@
+1. np.sqrt was the closest, the weekend dataset passed the normality test, and the weekday dataset is very close to passing.
+
+2. 
+Original T-test: The number of comments on weekdays vs weekends differ.
+Transformed data T-test: Since the transformation method of taking the square root is reasonable and commonly used, we are assuming that the relationship between the means didn't change.
+Thus, the conclusion for if we reject the null hypothesis stays the same: the number of comments on weekdays vs weekends differ.
+
+3. In my opionion approach number 4 (Mann-Whitney U test) does a better job of getting an answer for the original question. Approach 1 and 2 (original and transformed) will not even be considered 
+since they violate the assumption that the data is normally distributed and have equal variance. Approach 3 and 4 (CLT and u test) both do a great job of getting an answer, however, approach 4 
+worked on the original data instead of transformed data (even if it is just combining the counts of each week), thus it is a little better in regards to getting an answer for the original question
+in my opinion.
+
+4. Weekdays.

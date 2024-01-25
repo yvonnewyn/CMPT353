@@ -1,0 +1,8 @@
+1. The result of the calculation is the prediction of the rating based on the timestamp. 
+The intercept is what the rating would be if timestamp was at 0. The slope is how fast the rating is 
+rising. From my calculations, the intercept is -28.13 and the slope is 2.71.
+
+2. This creates a fit line because it is plotting y = mx+b, x being the timestamps (converted from datetime),
+and y, the result, is the rating based on x, the date or time. The timestamp values is the numerical 
+representation of the created_at values, which was used to create a best fit line which was then plotted 
+against the created_at values. So it was paired correctly because they're the same values.
